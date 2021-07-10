@@ -1,5 +1,5 @@
 # Zhihu-crawler
-A crawler for website Zhihu to extract personal information
+A crawler for dynamic generated website such as Zhihu to extract personal information using Selenium
 
 ## Output
 - Report for answers in .json format
