@@ -2,10 +2,6 @@
 """
 Created on Mon Oct 26 15:17:56 2020
 
-@author: FelixKu 3035370363
-
-@project: FINA2390 Project 4 - 4.1 Zhihu
-
 Reference: https://blog.csdn.net/qq_36962569/article/details/77200118?utm_medium=distribute.pc_relevant.none-task-blog-title-3&spm=1001.2101.3001.4242
 """
 
