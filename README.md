@@ -2,26 +2,28 @@
 A crawler for dynamic generated website such as Zhihu to extract personal information using Selenium
 
 ## Background
-- Link of website: https://store.steampowered.com/ 
-- Steam is one of the largest stores for PC game gamers to buy and download games from. According to their official data, there are around 20 million users logged into the Steam software at peak time every day and the daily data transferred (games download) is around 8,000 Gbps.
-- This program intends to extract the information of gamers as well as the games and organize them into a more easy-interpretable format.
+- Link of website: https://www.zhihu.com/
+- Zhihu is one of the largest knowledges sharing platform in China. It operates in a way similar to Quora where users can post or answer questions and share their opinions on hot debate topics with others.
+- This program intends to extract a list of user’s answers on specific questions and organize them for better interpertation.
+- Dynamically generated website
 
 ## Functions
 
-### 1. General reports
-1.	Enter the time period you want to view
-2.	Return a csv file report with the following information:
-  a.	Number of users logged into the software during the time (Average)
-  b.	Most played games during the time
+### 1. User Report
+1.	Enter the username of the user that you want to search
+2.	Return a csv file user report with the following information:
+  a.	Basic information about the user
+  b.	Total likes of user’s answers
+  c.	A list of the user’s interested topics
+  d.	A list of the user’s starred questions
 
-### 2. Store Game report
-1.	Enter keyword for the game you want to search
-2.	Return a csv file report about games that suits the search criteria with the following information:
-  a.	Basic information of the game
-  b.	Title of the game
-  c.	Release date of the game
-  d.	Genre of the game
-  e.	Reviews of the game (Positive/Negative)
+### 2. Question Search
+1.	Enter keyword for questions you want to search
+2.	Return a list of question for user to choose from
+3.	After choosing the question you want to see, return a csv file with a list of the following information:
+  a.	Title of the question
+  b.	Detail information of all answers
+  c.	Number of answers
 
 ## Output
 - Report for answers in .json format
